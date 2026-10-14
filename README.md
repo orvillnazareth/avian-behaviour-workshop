@@ -2,11 +2,10 @@
 
 Upload the contents of this folder to the root of your GitHub Pages repository.
 
-- `index.html` is the homepage.
-- `intro.html` is the new story-driven introduction, with a koel opening question, history, Tinbergen's four questions, applications and transition into Day 1.
-- `day-1.html` contains the Day 1 slide viewer and interactive knowledge checks.
-- `day-2.html` and `day-3.html` remain programme outlines.
-- Keep the entire `assets/` folder alongside the HTML files.
-- Presenter notes are not included on the public pages.
-
-The koel on the introduction page is an original local SVG illustration, so it will display without uploading any additional image file. Replace it with a real koel photograph if you prefer.
+- `index.html`: homepage with four cards — Introduction, Day 1, Day 2, Day 3.
+- `introduction.html`: a 10-slide story-led introduction using the same slide viewer as the day pages.
+- `day-1.html`, `day-2.html`, `day-3.html`: workshop pages.
+- Keep the complete `assets/` folder and `.nojekyll` together with the HTML files.
+- The introduction currently uses `assets/images/asian-koel-illustration.svg`; this can be replaced later with a user-supplied image.
+- Typography uses DM Sans with Caveat for handwritten-style emphasis. Google Fonts needs an internet connection; fallback fonts are specified.
+- Presenter notes are not included on public pages.

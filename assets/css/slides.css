@@ -11,3 +11,21 @@
 .quiz-option.incorrect{border-color:#c88772;background:#f7e8e2}
 .feedback{padding:.85rem 1rem;background:#f2f1e9;border-radius:10px;min-height:1.5rem}
 @media(max-width:700px){.visual-panel img{max-height:180px}}
+
+/* Friendly editorial typography and intro slide layouts */
+body{font-family:'DM Sans',system-ui,sans-serif}
+h1,h2,h3,.brand,.sidebar-title strong{font-family:'DM Sans',system-ui,sans-serif}
+h1 em,h2 em{font-family:'Caveat',cursive;font-style:normal;font-weight:700;letter-spacing:0}
+.slide h2{letter-spacing:-.035em}
+.handwritten-question{font-family:'Caveat',cursive;font-size:2rem;font-weight:700;color:#416b4c;transform:rotate(-2deg);margin:1rem 0}
+.timeline{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin:1.5rem 0}
+.timeline>div,.scientist-grid article,.four-questions article{background:#f0f2e9;border:1px solid #dce4d7;border-radius:16px;padding:1.1rem}
+.timeline span,.scientist-grid article>span,.four-questions article>span{font-size:.75rem;letter-spacing:.1em;color:#577d5d;font-weight:700}
+.big-stat{display:grid;grid-template-columns:auto 1fr auto 1fr;align-items:center;gap:.8rem;background:#e7eee4;border-radius:18px;padding:1.5rem;margin:1.4rem 0}
+.big-stat strong{font-family:'Caveat',cursive;font-size:4.2rem;line-height:1;color:#315d47}
+.big-stat i{font-style:normal;color:#657767}
+.scientist-grid,.four-questions{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.8rem;margin:1.4rem 0}
+.four-questions{grid-template-columns:repeat(2,minmax(0,1fr))}
+.small-note{font-size:.85rem;color:#657767}
+.intro-hero figure img{background:#e8eee4;object-fit:cover}
+@media(max-width:800px){.timeline,.scientist-grid{grid-template-columns:1fr}.big-stat{grid-template-columns:auto 1fr}.big-stat i{display:none}.four-questions{grid-template-columns:1fr 1fr}}
