@@ -1,18 +1,11 @@
-# Avian Behaviour & Migration Workshop website
+# Avian Behaviour & Migration workshop website
 
-This public GitHub Pages site contains a homepage, a Day 1 presentation with a real slide viewer, local bird images, interactive MCQs, and revealable suggested answers. Days 2 and 3 are structured outlines for now.
+Upload the contents of this folder to the root of your GitHub Pages repository.
 
-## Publish/update
-1. Extract the ZIP.
-2. Upload the contents of this folder to the root of your public GitHub repository, replacing the older files.
-3. Keep `.nojekyll` at the repository root.
-4. In GitHub, open Settings → Pages → Deploy from a branch → `main` → `/(root)` → Save.
+- Keep `index.html`, `day-1.html`, `day-2.html`, `day-3.html`, `.nojekyll`, and the complete `assets/` folder together.
+- The Day 1 deck includes local SVG teaching visuals, the two bird photographs, and interactive knowledge-check slides between modules.
+- Quiz feedback appears immediately when a participant selects an option.
+- Presenter notes are not included on the public pages.
+- The Day 2 and Day 3 pages remain outlines; this update expands Day 1 only.
 
-## Day 1 controls
-- Use the left topic list to jump directly to a slide.
-- Use Previous / Next or the keyboard arrow keys.
-- Press F for fullscreen.
-- Quizzes provide instant feedback; activity answers can be revealed.
-- No presenter notes are included in the public HTML.
-
-The site does not collect participant names, answers or scores. Bird images are stored locally in `assets/images/`.
+Use the arrow keys or Previous/Next buttons to move between slides. Press F for fullscreen.
