@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 620" role="img" aria-labelledby="title desc">
+<title id="title">Illustration of an Asian koel</title><desc id="desc">A dark male koel perched among tropical leaves against a warm green background.</desc>
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e7ead8"/><stop offset="1" stop-color="#a7b99b"/></linearGradient>
+ <linearGradient id="body" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#263b32"/><stop offset="1" stop-color="#0f201c"/></linearGradient>
+ <filter id="shadow"><feGaussianBlur stdDeviation="10"/></filter>
+</defs>
+<rect width="1000" height="620" rx="28" fill="url(#bg)"/>
+<circle cx="770" cy="125" r="110" fill="#f5efcf" opacity=".65"/>
+<g fill="#617e5d" opacity=".8">
+ <path d="M0 0H170Q105 100 0 150Z"/><path d="M0 210Q145 100 235 165Q140 255 0 270Z"/>
+ <path d="M1000 60Q820 65 820 190Q940 185 1000 130Z"/><path d="M1000 235Q830 180 780 290Q900 330 1000 300Z"/>
+ <path d="M90 620Q95 490 210 450Q225 555 145 620Z"/><path d="M890 620Q830 500 740 495Q750 585 810 620Z"/>
+</g>
+<g stroke="#7c946f" stroke-width="5" fill="none" opacity=".9"><path d="M0 380Q280 330 500 395T1000 360"/><path d="M70 470Q260 430 380 490T740 470"/></g>
+<ellipse cx="520" cy="495" rx="270" ry="28" fill="#263b32" opacity=".2" filter="url(#shadow)"/>
+<!-- tail -->
+<path d="M515 360Q625 400 770 565Q670 530 580 485Q520 430 470 405Z" fill="#182a25"/>
+<path d="M540 365Q650 430 715 535Q625 475 550 430Z" fill="#30463a"/>
+<!-- body -->
+<path d="M345 250Q410 200 500 250Q560 290 550 365Q535 430 465 445Q385 448 330 390Q295 340 315 290Z" fill="url(#body)"/>
+<!-- wing -->
+<path d="M355 275Q420 275 490 325Q455 380 385 390Q345 360 355 275Z" fill="#1c3029"/>
+<path d="M375 305Q418 328 457 349M365 330Q410 354 440 370" stroke="#4d6655" stroke-width="5" fill="none" opacity=".65"/>
+<!-- neck/head -->
+<path d="M420 275Q390 225 415 175Q445 135 500 150Q550 170 535 220Q520 270 470 285Z" fill="#172823"/>
+<circle cx="485" cy="188" r="7" fill="#e75b45"/><circle cx="486" cy="188" r="3" fill="#f7d6a0"/>
+<!-- beak -->
+<path d="M520 195L600 210L526 219Z" fill="#d5c7a0"/><path d="M525 215L600 210" stroke="#7c735e" stroke-width="3"/>
+<!-- feet -->
+<path d="M400 415L395 460M455 425L463 460" stroke="#bd9d65" stroke-width="8" stroke-linecap="round"/>
+<path d="M395 460l-25 9m25-9l18 10m50-10l-18 11m18-11l22 6" stroke="#bd9d65" stroke-width="6" stroke-linecap="round"/>
+<!-- branch -->
+<path d="M170 465Q390 440 625 470T900 455" fill="none" stroke="#594c36" stroke-width="20" stroke-linecap="round"/>
+<path d="M215 455Q245 400 280 405Q272 445 235 462M730 463Q755 405 800 415Q785 455 748 470" fill="#47684b"/>
+<g font-family="Arial,sans-serif" fill="#203a31"><text x="55" y="535" font-size="22" letter-spacing="4">ASIAN KOEL</text><text x="55" y="568" font-size="17" font-style="italic">Eudynamys scolopaceus</text></g>
+</svg>

@@ -2,10 +2,11 @@
 
 Upload the contents of this folder to the root of your GitHub Pages repository.
 
-- Keep `index.html`, `day-1.html`, `day-2.html`, `day-3.html`, `.nojekyll`, and the complete `assets/` folder together.
-- The Day 1 deck includes local SVG teaching visuals, the two bird photographs, and interactive knowledge-check slides between modules.
-- Quiz feedback appears immediately when a participant selects an option.
+- `index.html` is the homepage.
+- `intro.html` is the new story-driven introduction, with a koel opening question, history, Tinbergen's four questions, applications and transition into Day 1.
+- `day-1.html` contains the Day 1 slide viewer and interactive knowledge checks.
+- `day-2.html` and `day-3.html` remain programme outlines.
+- Keep the entire `assets/` folder alongside the HTML files.
 - Presenter notes are not included on the public pages.
-- The Day 2 and Day 3 pages remain outlines; this update expands Day 1 only.
 
-Use the arrow keys or Previous/Next buttons to move between slides. Press F for fullscreen.
+The koel on the introduction page is an original local SVG illustration, so it will display without uploading any additional image file. Replace it with a real koel photograph if you prefer.
